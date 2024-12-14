@@ -4,7 +4,8 @@ public class StringExercises {
 
     public String fromCharacters(char[] characters) {
         // TODO - Write code that creates a String from the input array of characters
-        throw new RuntimeException("Not implemented");
+        String result = new String(characters);
+        return result; 
     }
 
     public Long howMany(String text, Character character) {
